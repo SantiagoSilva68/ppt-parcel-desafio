@@ -35,7 +35,7 @@ export function juego() {
 
                 } else {
                     clearInterval(this.intervalId);
-                    navigateTo("/perdiste");
+                    window.location.href = "https://santiagosilva68.github.io/ppt-parcel-desafio";
                 }
             }, 1000);
         }

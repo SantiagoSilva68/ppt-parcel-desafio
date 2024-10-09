@@ -139,7 +139,7 @@ export function perdiste() {
                 playerWinsDiv.textContent = `Victorias del jugador: 0`;
                 machineWinsDiv.textContent = `Victorias de la máquina: 0`;
             }
-
+            window.location.href = "https://santiagosilva68.github.io/ppt-parcel-desafio";
             const mensajeReinicio = document.querySelector('#mensaje-reinicio') as HTMLElement;
             
             if (mensajeReinicio) {
@@ -155,7 +155,7 @@ export function perdiste() {
         const boton = div.querySelector('.boton');
             if (boton) {
                 boton.addEventListener('click', () => {
-                    window.location.href = "/reglas";
+                    window.location.href = "https://santiagosilva68.github.io/ppt-parcel-desafio";
                 });
             } 
     }

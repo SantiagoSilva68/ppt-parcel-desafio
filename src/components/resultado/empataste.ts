@@ -136,6 +136,7 @@ export function empataste() {
                 machineWinsDiv.textContent = `Victorias de la máquina: 0`;
             }
             const mensajeReinicio = document.querySelector('#mensaje-reinicio') as HTMLElement;
+            window.location.href = "https://santiagosilva68.github.io/ppt-parcel-desafio";
             if (mensajeReinicio) {
               mensajeReinicio.textContent = "Contadores reiniciados correctamente!";
               mensajeReinicio.style.display = "block";
@@ -149,7 +150,7 @@ export function empataste() {
         const boton = div.querySelector('.boton');
             if (boton) {
                 boton.addEventListener('click', () => {
-                    window.location.href = "/reglas";
+                    window.location.href = "https://santiagosilva68.github.io/ppt-parcel-desafio";
                 });
             } 
     }
